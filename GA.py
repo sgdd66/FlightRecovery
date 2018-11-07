@@ -7,6 +7,8 @@ from FlightRecovery.EnvironmentData import EnvironmentData as ED
 from FlightRecovery.TestEnvironment import Environment
 import numpy as np
 
+
+
 class Individual(object):
     """个体类，包含基因信息"""
     def __init__(self,flightNum):
